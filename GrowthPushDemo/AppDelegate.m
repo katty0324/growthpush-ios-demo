@@ -12,6 +12,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [EasyGrowthPush setApplicationId:350 secret:@"qlLbt2KwEWz9W5FcblkUVEq9KYtMSQYr" environment:kGrowthPushEnvironment debug:YES];
     // Override point for customization after application launch.
     return YES;
 }
